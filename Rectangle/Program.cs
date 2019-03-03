@@ -2,21 +2,23 @@
 
 namespace Rectangle
 {
-    public static class Program
+    static void Main(string[] args)
     {
-        public static void Main()
-        {
-            Console.Write("Enter the length of the rectangle: ");
+        Console.WriteLine("Hello World!");
+        int length, width, area;
 
-            // Get input from the user and save it to a variable.
+        Console.Write("Enter the length of the rectangle: ");
+        length = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter the width of the rectangle: ");
+        width = Convert.ToInt32(Console.ReadLine());
+        area = length * width;
 
-            Console.Write("Enter the width of the rectangle: ");
+        Console.WriteLine($"Area is : {area}");
 
-            // Get input from the user and save it to a second variable.
-
-            // Output - The area of the rectangle is (computed value)
-
-            Console.ReadLine();
-        }
+        Console.ReadKey();
     }
 }
+            
+
+    
+
