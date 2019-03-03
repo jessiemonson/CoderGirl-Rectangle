@@ -1,11 +1,14 @@
 ﻿using System;
 
-namespace Rectangle
-{
-    static void Main(string[] args)
+    namespace Rectangle
+
+   
+
+
+        static void Main(string[] args)
     {
         Console.WriteLine("Hello World!");
-        int length, width, area;
+            int length, width, area;
 
         Console.Write("Enter the length of the rectangle: ");
         length = Convert.ToInt32(Console.ReadLine());
