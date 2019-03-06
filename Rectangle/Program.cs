@@ -16,9 +16,9 @@ namespace Rectangle
             width = Convert.ToInt32(Console.ReadLine());
             area = length * width;
 
-            Console.WriteLine($"Area is : {area}");
+            Console.WriteLine(area);
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
